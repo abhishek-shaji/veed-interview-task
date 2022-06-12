@@ -45,6 +45,7 @@ const RepositoryList = ({
             href={url}
             className="block border-b border-slate-200 hover:-translate-y-1 hover:shadow-lg cursor-pointer transition-all"
             key={id}
+            data-testid="repository-list-item"
           >
             <div className="flex justify-between items-center">
               <div className="flex items-center my-5">

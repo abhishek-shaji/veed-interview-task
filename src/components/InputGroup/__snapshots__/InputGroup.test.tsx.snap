@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputGroup should render correctly 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <input
+      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+      placeholder="test placeholder"
+      required=""
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`InputGroup should render correctly with value 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <input
+      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+      placeholder="test placeholder"
+      required=""
+      type="text"
+      value="test value"
+    />
+  </div>
+</div>
+`;
+
+exports[`InputGroup should render with label 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <label
+      class="block mb-1.5 ml-1 text-lg font-semibold w-full"
+      data-testid="input-group-label"
+      for="email"
+    >
+      test label
+    </label>
+    <input
+      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+      placeholder="test placeholder"
+      required=""
+      type="text"
+      value="test value"
+    />
+  </div>
+</div>
+`;
