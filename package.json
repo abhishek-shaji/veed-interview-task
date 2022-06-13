@@ -1,9 +1,9 @@
 {
   "name": "veed-interview-task",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "description": "A frontend app that lists popular repositories on GitHub that were created in the last 7 days.",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "author": "Abhishek Shaji <kontakt@abhishek.pl> (@abhishek-shaji)",
   "license": "MIT",
   "keywords": [
     "nextjs",
@@ -19,7 +19,8 @@
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "postinstall": "husky install",
     "commit": "cz",
-    "test": "jest --watch"
+    "test:watch": "jest --watch",
+    "test": "jest"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [

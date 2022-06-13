@@ -10,6 +10,12 @@ Demo: https://veed-frontend.vercel.app/
 $ yarn
 ```
 
+## Running tests
+
+```bash
+$ yarn test
+```
+
 ## Running the app
 
 ```bash
